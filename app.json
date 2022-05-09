@@ -1,10 +1,14 @@
 {
   "expo": {
-    "name": "llaveroElectronico",
-    "slug": "llaveroElectronico",
+    "name": "FORCA_DO_FOGO",
+    "slug": "FORCA_DO_FOGO",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logoAPP.png", 
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -20,13 +24,16 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.CamiloDuran.ForcaDoFogo",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logoAPP.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
